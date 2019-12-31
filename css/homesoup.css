@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Noto+Sans+TC&display=swap');
+
+/********************************************
+Copyright: 源湯原味
+Web Design: Gordon Chan
+********************************************/
+
+.chinese{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.english{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #ffe6cc;
+    color: #663300;
+}
+
+.hidden{
+    display: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.icon{
+    height: 1em;
+}
+
+.larger{
+    font-size: 1.5em;
+}
+
+.slightLarge{
+    font-size: 1.25em;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+nav li{
+    margin-left: 1em;
+    background-color: #ccddaa;
+    padding: 0.7em;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+nav li:hover{
+    background-color: #e6ffcc;
+}
+
+footer{
+    width: 100vw;
+    background-color: #339933;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1em;
+}
